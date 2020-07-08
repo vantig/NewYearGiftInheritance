@@ -48,7 +48,7 @@ void Sweets::ReadinVector(std::istream& in)
 		getline(in, str);
 		std::istringstream input(str);
 		sweets.back()->read(input);
-		sweets.back()->print(std::cout);
+	
 	}
 
 }
