@@ -1,5 +1,6 @@
 #pragma once
-#include"base.h"
+#include"HeaderMain.h"
+
 class Marshmellow:public BaseSweet
 {
 private:

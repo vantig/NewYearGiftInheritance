@@ -1,5 +1,6 @@
 #pragma once
-#include"base.h"
+#include"HeaderMain.h"
+
 class Chocolate :public BaseSweet
 {
 
@@ -12,7 +13,7 @@ private:
 public:
 
 	Chocolate() = default;
-	~Chocolate() = default;
+	~Chocolate()override = default;
 	std::istream& read(std::istream& in)override
 	{
 		 BaseSweet::read(in);

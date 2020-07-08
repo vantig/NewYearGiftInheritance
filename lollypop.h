@@ -1,6 +1,7 @@
 
 #pragma once
-#include"base.h"
+#include"HeaderMain.h"
+
 class Lollypop:public BaseSweet
 {
 private:
